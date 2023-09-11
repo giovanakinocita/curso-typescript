@@ -1,6 +1,11 @@
-import { Negociacao } from './models/negociacao.js';
-const negociacao = new Negociacao(new Date(), 10, 100);
-console.log(negociacao.volume);
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true
+    },
+    "include": ["app/**/*"]
+}
 
 
 // Aprendizados da aula:

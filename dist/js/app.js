@@ -2,9 +2,7 @@ import { Negociacao } from './models/negociacao.js';
 const negociacao = new Negociacao(new Date(), 10, 100);
 console.log(negociacao.volume);
 
-
-// Aprendizados da aula:
+// Aprendizado da aula:
 //
-// * Configuração do compilador e papel do tsconfig.json;
-// * Integração com scripts do Node.js;
-// * Benefícios iniciais da linguagem TypeScript.
+// Modificador private para melhor adaptação dos
+// navegadores atuais (09/2023)
